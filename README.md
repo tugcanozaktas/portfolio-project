@@ -6,7 +6,7 @@ This is a simple portfolio website built using React. It includes a navbar compo
 
 1. Clone the repository:
 
-git clone <git@github.com:tugcanozaktas/portfolio-project.git>
+git clone <git@github.com:tugcanozaktas/portfolio-project.git
 
 2. Navigate to the project directory:
 
