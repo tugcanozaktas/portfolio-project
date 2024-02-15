@@ -18,20 +18,14 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const config = {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      };
+      const body = formData;
 
-      const body = JSON.stringify(formData);
-
-      await axios.post("/api/contact", body, config);
+      await axios.post("http://https://portfolio-fijwxekit-tugcan-ozaktass-projects.vercel.app/api/contact", body);
 
       alert("Message sent!");
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error(err.response.data);
+      console.error(err);
       alert("An error occurred. Please try again.");
     }
   };
