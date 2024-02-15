@@ -21,7 +21,7 @@ const ContactForm = () => {
       const body = formData;
 
       await axios.post(
-        "https://portfolio-project-api.vercel.app/api/contact",
+        "https://portfolio-project-api.vercel.app",
         body
       );
 
