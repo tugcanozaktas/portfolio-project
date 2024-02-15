@@ -20,10 +20,7 @@ const ContactForm = () => {
     try {
       const body = formData;
 
-      await axios.post(
-        "https://portfolio-three-lac-55.vercel.app/api/contact",
-        body
-      );
+      await axios.post("/api/contact", body);
 
       alert("Message sent!");
       setFormData({ name: "", email: "", message: "" });
