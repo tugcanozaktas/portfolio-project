@@ -17,7 +17,7 @@
   .home-text {
     flex: 1;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 0;
   }
   
   .home-text h1 {
