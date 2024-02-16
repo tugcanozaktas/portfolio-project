@@ -79,3 +79,20 @@
     border-radius: 50px;
   }
   
+
+  @media screen and (min-width: 768px) {
+    .project-slider {
+      max-width: 600px;
+    }
+    .project{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 300px;
+    }
+    .project a {
+      width: 200px;
+      align-self: center;
+    }
+  }

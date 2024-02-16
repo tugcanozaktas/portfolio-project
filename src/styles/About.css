@@ -33,4 +33,13 @@
   .react { color: #61DBFB; }
   .js { color: #F0DB4F; }
   .backend { color: #6B8E23; }
+
+  @media screen and (min-width: 768px) {
+    .skill-icon{
+      font-size: 80px;
+    }
+    .skill p {
+      font-size: 25px;
+    }
+  }
   
