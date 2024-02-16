@@ -1,0 +1,20 @@
+.contact-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    padding: 40px 0px 0px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .contact-icon {
+    margin: 0 10px;
+    font-size: 40px;
+    color: rgb(164, 160, 160); /* Change color as needed */
+  }
+  
+  .contact-icon:hover {
+    color: #676d74; /* Change hover color as needed */
+  }
+  

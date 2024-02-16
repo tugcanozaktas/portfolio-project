@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0rem 2rem;
     background-color: #282c34;
   }
   
   .home-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     width: 500px;
     margin: 100px;

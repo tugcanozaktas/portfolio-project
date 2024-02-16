@@ -5,7 +5,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import About from "./About";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
-import ContactForm from "./ContactForm";
+import Contact from "./Contact";
 
 function App() {
   const scrollToTop = () => {
@@ -25,10 +25,12 @@ function App() {
         <About />
       </Element>
       <Element name="contact" className="element">
-        <ContactForm />
+        <Contact />
       </Element>
 
-      <button className="scroll-button" onClick={scrollToTop}>Scroll to Top</button>
+      <button className="scroll-button" onClick={scrollToTop}>
+        Scroll to Top
+      </button>
     </div>
   );
 }

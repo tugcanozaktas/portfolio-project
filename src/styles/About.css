@@ -1,11 +1,13 @@
 .about-container {
     text-align: center;
     margin-top: 50px;
+    padding: 40px;
   }
   
   .skills {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 20px;
   }
   
@@ -26,7 +28,7 @@
     color: #fff; /* Set the icon color */
   }
   
-  .html { color: #E44D26; } /* Adjust the color for each skill */
+  .html { color: #E44D26; }
   .css { color: #264DE4; }
   .react { color: #61DBFB; }
   .js { color: #F0DB4F; }

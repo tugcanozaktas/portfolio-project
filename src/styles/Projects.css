@@ -11,7 +11,7 @@
     padding: 25px;
     position: relative;
     width: 100%;
-    max-width: 600px; /* Limiting the width of the slider */
+    max-width: 300px; /* Limiting the width of the slider */
     overflow: hidden;
   }
   
