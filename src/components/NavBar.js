@@ -14,8 +14,11 @@ const Navbar = () => {
     setMenuOpen(false);
   };
   return (
-    <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-      {menuOpen ? (
+    <>
+      <button type="button" onClick={handleMenuOpen} className="menu-open-icon">
+        <FontAwesomeIcon icon={faBars} />
+      </button>
+      <nav className={`navbar ${menuOpen ? "open" : ""}`}>
         <div className="navbar-container">
           <button
             type="button"
@@ -80,16 +83,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      ) : (
-        <button
-          type="button"
-          onClick={handleMenuOpen}
-          className="menu-open-icon"
-        >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-      )}
-    </nav>
+      </nav>
+    </>
   );
 };
 

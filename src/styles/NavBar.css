@@ -1,13 +1,16 @@
 /* NavBar.css */
 .navbar {
   display: flex;
-  position: relative;
+  position: fixed;
   width: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
   background-color: #333;
   z-index: 1000;
 }
 
 .navbar.open {
+  transform: translateX(0);
   position: fixed;
   height: 100vh;
 }
@@ -62,3 +65,8 @@
   color: #007bff;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar.open{
+    height: 100px;
+  }
+}
